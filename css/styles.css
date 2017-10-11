@@ -2,6 +2,13 @@
 
 .logo {
   font-family: 'Alex Brush', cursive;
-  font-size: 38px;
   text-transform: none;
+}
+
+.font38 {
+  font-size: 38px;
+}
+
+.font64 {
+  font-size: 64px;
 }
