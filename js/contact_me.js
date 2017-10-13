@@ -41,7 +41,8 @@ $(function() {
           //clear all fields
           $('#contactForm').trigger("reset");
         },
-        error: function() {
+        error: function(data) {
+          console.log('data', data);
           // Fail message
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
